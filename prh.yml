@@ -1,0 +1,27 @@
+version: 1
+imports:
+  - prh-hiragana.yml 
+rules:
+  - expected: \coloneqq
+    patterns: :=
+    prh: 定義の記号:=は\userpackage{mathtools}で定義されている\coloneqqを使う
+
+  - expected: \ldots
+    patterns: (...)
+    prh: カンマに使う三点リーダーは\ldotsを使う
+
+  - expected: \cdots
+    patterns: (・・・)
+    prh: 演算に使う三点リーダーは\cdotsを使う
+
+  - expected: \top
+    patterns: ^T
+    prh: 転置の記号は\topを使う
+
+  - expected: \|
+    patterns: /\|\|/
+    prh: ノルムは\|を使う
+
+  - expected: \mid
+    patterns: /\|/
+    prh: 集合の縦棒は\midを使う

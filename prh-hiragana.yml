@@ -1,0 +1,348 @@
+version: 1
+rules:
+  # 接頭辞
+  - expected: お手数
+    patterns: 御手数
+    prh: ひらがなのほうがよい
+
+  - expected: ご査収
+    patterns: 御査収
+    prh: ひらがなのほうがよい
+
+  # 接尾時
+  - expected: わかりづらい
+    patterns: わかり辛い
+    prh: ひらがなのほうがよい
+
+  - expected: やすい
+    patterns: 易い
+    prh: ひらがなのほうがよい
+
+  # 形式名詞，補助用言
+  - expected: ため
+    patterns: 為
+    prh: ひらがなのほうがよい
+
+  - expected: ください
+    patterns: 下さい
+    prh: ひらがなのほうがよい
+
+  - expected: いただく
+    patterns: 頂く
+    prh: ひらがなのほうがよい
+
+  - expected: できる
+    patterns: 出来る
+    prh: ひらがなのほうがよい
+
+  - expected: よい
+    patterns: 良い
+    prh: ひらがなのほうがよい
+
+  # 副詞
+  - expected: あえて
+    patterns: 敢えて
+    prh: ひらがなのほうがよい
+
+  - expected: あらかじめ
+    patterns: 予め
+    prh: ひらがなのほうがよい
+
+  - expected: いつか
+    patterns: 何時か
+    prh: ひらがなのほうがよい
+
+  - expected: いっそう
+    patterns: 一層
+    prh: ひらがなのほうがよい
+
+  - expected: いったい
+    patterns: 一体
+    prh: ひらがなのほうがよい
+
+  - expected: いまにも
+    patterns: 今にも
+    prh: ひらがなのほうがよい
+
+  - expected: いたって
+    patterns: 至って
+    prh: ひらがなのほうがよい
+
+  - expected: おおいに
+    patterns: 大いに
+    prh: ひらがなのほうがよい
+
+  - expected: おおむね
+    patterns: 概ね
+    prh: ひらがなのほうがよい
+
+  - expected: かえって
+    patterns: 却って
+    prh: ひらがなのほうがよい
+
+  - expected: ことに
+    patterns: 殊に
+    prh: ひらがなのほうがよい
+
+  - expected: さらに
+    patterns: 更に
+    prh: ひらがなのほうがよい
+
+  - expected: しばらく
+    patterns: 暫く
+    prh: ひらがなのほうがよい
+
+  - expected: ずいぶん
+    patterns: 随分
+    prh: ひらがなのほうがよい
+
+  - expected: すぐ
+    patterns: 直ぐ
+    prh: ひらがなのほうがよい
+
+  - expected: すでに
+    patterns: 既に
+    prh: ひらがなのほうがよい
+
+  - expected: せっかく
+    patterns: 折角
+    prh: ひらがなのほうがよい
+
+  - expected: ぜひ
+    patterns: 是非
+    prh: ひらがなのほうがよい
+
+  - expected: だいたい
+    patterns: 大体
+    prh: ひらがなのほうがよい
+
+  - expected: だいぶ
+    patterns: 大分
+    prh: ひらがなのほうがよい
+
+  - expected: たいへん
+    patterns: 大変
+    prh: ひらがなのほうがよい
+
+  - expected: たくさん
+    patterns: 沢山
+    prh: ひらがなのほうがよい
+
+  - expected: ちょうど
+    patterns: 丁度
+    prh: ひらがなのほうがよい
+
+  - expected: なかなか
+    patterns: 中々
+    prh: ひらがなのほうがよい
+
+  - expected: ながらく
+    patterns: 長らく
+    prh: ひらがなのほうがよい
+
+  - expected: なんだか
+    patterns: 何だか
+    prh: ひらがなのほうがよい
+
+  - expected: なんと
+    patterns: 何と
+    prh: ひらがなのほうがよい
+
+  - expected: なんら
+    patterns: 何ら
+    prh: ひらがなのほうがよい
+
+  - expected: はなはだ
+    patterns: 甚だ
+    prh: ひらがなのほうがよい
+
+  - expected: ほとんど
+    patterns: 殆ど
+    prh: ひらがなのほうがよい
+
+  - expected: まるで
+    patterns: 丸で
+    prh: ひらがなのほうがよい
+
+  - expected: もっとも
+    patterns: 最も
+    prh: ひらがなのほうがよい
+
+  - expected: もはや
+    patterns: 最早
+    prh: ひらがなのほうがよい
+
+  # 接続詞
+  - expected: あるいは
+    patterns: 或いは
+    prh: ひらがなのほうがよい
+
+  - expected: および
+    patterns: 及び
+    prh: ひらがなのほうがよい
+
+  - expected: かつ
+    patterns: 且つ
+    prh: ひらがなのほうがよい
+
+  - expected: しかし
+    patterns: 然し
+    prh: ひらがなのほうがよい
+
+  - expected: したがって
+    patterns: 従って
+    prh: ひらがなのほうがよい
+
+  - expected: すなわち
+    patterns: 即ち
+    prh: ひらがなのほうがよい
+
+  - expected: ただし
+    patterns: 但し
+    prh: ひらがなのほうがよい
+
+  - expected: なお
+    patterns: 尚
+    prh: ひらがなのほうがよい
+
+  - expected: または
+    patterns: 又は
+    prh: ひらがなのほうがよい
+
+  # 連体詞
+  - expected: ある
+    patterns: 或る
+    prh: ひらがなのほうがよい
+
+  - expected: いかなる
+    patterns: 如何なる
+    prh: ひらがなのほうがよい
+
+  - expected: いわゆる
+    patterns: 所謂
+    prh: ひらがなのほうがよい
+
+  - expected: 此の
+    patterns: この
+    prh: ひらがなのほうがよい
+
+  # ?
+  - expected: あげる
+    patterns: 挙げる
+    prh: ひらがなのほうがよい
+
+  - expected: あたり
+    patterns: 当たり
+    prh: ひらがなのほうがよい
+
+  - expected: あつかう
+    patterns: 扱う
+    prh: ひらがなのほうがよい
+
+  - expected: あらたな
+    patterns: 新たな
+    prh: ひらがなのほうがよい
+
+  - expected: あらわす
+    patterns: 表す
+    prh: ひらがなのほうがよい
+
+  - expected: あわせて
+    patterns: 合わせて
+    prh: ひらがなのほうがよい
+
+  - expected: あわせて
+    patterns: 併せて
+    prh: ひらがなのほうがよい
+
+  - expected: いう
+    patterns: 言う
+    prh: ひらがなのほうがよい
+
+  - expected: いくらか
+    patterns: 幾らか
+    prh: ひらがなのほうがよい
+
+  - expected: いたる
+    patterns: 至る
+    prh: ひらがなのほうがよい
+
+  - expected: いっそう
+    patterns: 一層
+    prh: ひらがなのほうがよい
+
+  - expected: いったん
+    patterns: 一旦
+    prh: ひらがなのほうがよい
+
+  - expected: うける
+    patterns: 受ける
+    prh: ひらがなのほうがよい
+
+  - expected: える
+    patterns: 得る
+    prh: ひらがなのほうがよい
+
+  - expected: おきる
+    patterns: 起きる
+    prh: ひらがなのほうがよい
+
+  - expected: こととする
+    patterns: 事とする
+    prh: ひらがなのほうがよい
+
+  - expected: ことである
+    patterns: 事である
+    prh: ひらがなのほうがよい
+
+  - expected: さまざまな
+    patterns: 様々な
+    prh: ひらがなのほうがよい
+
+  - expected: ようだ
+    patterns: 様だ
+    prh: ひらがなのほうがよい
+
+  - expected: すべて
+    patterns: 全て
+    prh: ひらがなのほうがよい
+
+  - expected: するとき
+    patterns: する時
+    prh: ひらがなのほうがよい
+
+  - expected: ともに
+    patterns: 共に
+    prh: ひらがなのほうがよい
+
+  - expected: ともない
+    patterns: 伴い
+    prh: ひらがなのほうがよい
+
+  - expected: なかば
+    patterns: 半ば
+    prh: ひらがなのほうがよい
+
+  - expected: はじめ
+    patterns: 初め
+    prh: ひらがなのほうがよい
+
+  - expected: めぐる
+    patterns: 巡る
+    prh: ひらがなのほうがよい
+
+  - expected: まれに
+    patterns: 稀に
+    prh: ひらがなのほうがよい
+
+  - expected: わかる
+    patterns: 分かる
+    prh: ひらがなのほうがよい
+
+  - expected: わずかに
+    patterns: 僅かに
+    prh: ひらがなのほうがよい
+
+  - expected: ため
+    patterns: 為
+    prh: ひらがなのほうがよい

@@ -1,0 +1,45 @@
+{
+    "plugins": [
+        "textlint-plugin-latex2e"
+    ],
+    "rules": {
+        "no-mix-dearu-desumasu": {
+             "preferInHeader": "である",
+             "preferInBody": "である",
+             "preferInList": "である",
+             // 文末以外でも、敬体(ですます調)と常体(である調)を厳しくチェックするかどうか
+             "strict": true
+        },
+        "no-mixed-zenkaku-and-hankaku-alphabet": true,
+        "ja-hiragana-hojodoushi": true,
+        "ja-hiragana-fukushi": true,
+        "ja-hiragana-keishikimeishi": true,
+        "preset-ja-spacing": true,
+        "preset-jtf-style": {
+            "1.2.1.句点(。)と読点(、)": false,
+            "1.2.2.ピリオド(.)とカンマ(,)": false,
+            "4.1.3.ピリオド(.)、カンマ(,)": false
+        },
+        "preset-japanese": {
+            "no-doubled-joshi": {
+                "min_interval": 1,
+                "allow": ["が"],
+            },
+            "sentence-length": false,
+        },
+        "preset-ja-technical-writing": {
+            "ja-no-mixed-period": {
+                "periodMark": "．"
+            },
+            "max-kanji-continuous-len": {
+                "max": 8,
+            },
+            "no-doubled-joshi": false,
+            "sentence-length": false,
+        },
+        "preset-ja-engineering-paper": true,
+        "prh": {
+            "rulePaths": ["./prh.yml"]
+        },
+    }
+}

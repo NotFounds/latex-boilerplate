@@ -1,0 +1,29 @@
+{
+  "name": "latex-boilerplate",
+  "version": "0.0.1",
+  "description": "",
+  "devDependencies": {
+    "textlint": "^11.2.5",
+    "textlint-plugin-latex2e": "^0.2.2",
+    "textlint-rule-ja-hiragana-fukushi": "^1.0.3",
+    "textlint-rule-ja-hiragana-hojodoushi": "^1.0.4",
+    "textlint-rule-ja-hiragana-keishikimeishi": "^1.0.2",
+    "textlint-rule-no-mix-dearu-desumasu": "^4.0.0",
+    "textlint-rule-no-mixed-zenkaku-and-hankaku-alphabet": "^1.0.1",
+    "textlint-rule-preset-ja-engineering-paper": "^0.1.0",
+    "textlint-rule-preset-ja-spacing": "^2.0.1",
+    "textlint-rule-preset-ja-technical-writing": "^3.1.2",
+    "textlint-rule-preset-japanese": "^2.0.1",
+    "textlint-rule-preset-jtf-style": "^2.3.3",
+    "textlint-rule-prh": "^5.2.0"
+  },
+  "scripts": {
+    "lint": "textlint -f pretty-error index.tex",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "latex"
+  ],
+  "author": "",
+  "license": "MIT"
+}
